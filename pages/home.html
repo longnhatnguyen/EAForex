@@ -1,0 +1,76 @@
+<!-- Hero Section -->
+<section class="relative max-w-7xl mx-auto px-6 pb-24 pt-6 sm:pt-10">
+  <div class="grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <h1 class="text-4xl sm:text-5xl font-black leading-tight">
+        Expert Advisor tối ưu <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400">hiệu suất</span>,
+        giảm <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-orange-300">rủi ro</span>
+      </h1>
+      <p class="mt-4 text-slate-300 text-lg">
+        EA Cậu Vàng giúp bạn giao dịch tự động theo chiến lược rõ ràng: quản trị vốn, lọc tín hiệu, trailing theo xu hướng.
+        Tối giản cấu hình – bật là chạy.
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4">
+        <a href="myfile.zip" download class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-500 text-white font-semibold shadow-lg shadow-cyan-500/20 hover:opacity-95">
+          📥 Tải EA miễn phí
+        </a>
+        <a href="#" onclick="loadPage('features')" class="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-white/10 hover:border-white/30 font-semibold">
+          Xem tính năng
+        </a>
+      </div>
+      <div class="mt-6 flex items-center gap-6 text-sm text-slate-400">
+        <div class="flex items-center gap-2"><span class="text-xl">⭐️⭐️⭐️⭐️⭐️</span> 1,200+ người dùng</div>
+        <div class="flex items-center gap-2">⏱ Backtest 5 năm</div>
+        <div class="flex items-center gap-2">🔒 Không thu thập dữ liệu</div>
+      </div>
+    </div>
+
+    <!-- PDF Viewer -->
+    <div class="relative">
+      <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-3xl blur opacity-25"></div>
+      <div class="relative rounded-3xl bg-slate-900/60 border border-white/10 p-2 sm:p-4 backdrop-blur-md flex flex-col items-center justify-center">
+        <div class="w-full text-center mb-2 text-slate-300 font-semibold">Báo cáo Backtest (PDF)</div>
+        <iframe src="Report-159468482.pdf" class="w-full h-[420px] rounded-xl border border-cyan-500/30 bg-white" style="min-height:320px;" frameborder="0"></iframe>
+        <div class="mt-2 text-xs text-slate-400">Nếu không xem được PDF, <a href="Report-159468482.pdf" class="underline hover:text-cyan-400" download>Tải về tại đây</a>.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Update Section -->
+<section class="max-w-2xl mx-auto px-4 sm:px-6 pt-8 pb-2">
+  <div class="relative rounded-3xl bg-gradient-to-r from-cyan-800/40 to-indigo-900/40 border border-cyan-500/20 shadow-lg p-1 mb-10 overflow-hidden">
+    <div class="absolute -top-8 -left-8 w-32 h-32 bg-cyan-400/20 rounded-full blur-2xl"></div>
+    <div class="absolute -bottom-8 -right-8 w-40 h-40 bg-indigo-500/20 rounded-full blur-2xl"></div>
+    <div class="relative rounded-3xl bg-slate-900/80 p-6 sm:p-8">
+      <div class="flex items-center justify-center mb-3">
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-cyan-400 to-indigo-500 text-white text-2xl shadow-lg mr-2">🆕</span>
+        <h2 class="text-2xl sm:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-indigo-400 tracking-tight">Cập nhật ngày 24/08</h2>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-6 mt-2">
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-lg">🧑‍💻</span>
+            <span class="font-bold text-cyan-300">Ezreal</span>
+          </div>
+          <ul class="list-disc pl-5 text-slate-300 space-y-1 text-sm">
+            <li><b>Limit Buy 0.01</b>: Dừng DCA, không vào thêm lệnh (phục vụ đóng lệnh thủ công sẽ tự động tính lại TP, không mở lệnh mới)</li>
+            <li><b>Limit Buy 0.02</b>: Dừng hẳn BOT</li>
+            <li><b>Limit Buy 0.03</b>: Chuyển Mode cấp cao nhất (2k5 X1 ≈ 10k x4)</li>
+            <li>Tạm bỏ chức năng SL bằng cây cân huệ</li>
+          </ul>
+        </div>
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="text-lg">🐫</span>
+            <span class="font-bold text-indigo-300">Cammel (Kalistar)</span>
+          </div>
+          <ul class="list-disc pl-5 text-slate-300 space-y-1 text-sm">
+            <li>Nếu không còn lệnh limit buy/sell thì sẽ dời TP về hòa, không cần lãi nữa</li>
+            <li>Auto tính lại TP khi có lệnh được đóng thủ công</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
